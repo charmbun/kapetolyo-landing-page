@@ -1,0 +1,62 @@
+/* GENERAL */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #F1E3CC;
+}
+
+a:hover {
+    color: #B4B897;
+}
+
+h1, h2, p, a {
+    margin: 0;
+    font-weight: lighter;
+}
+
+/* HEADER & HERO SECTION */
+
+header, .hero-section {
+    background-color: #553216 ;
+    color: #F1E3CC;
+    padding: 16px;
+}
+
+.logo {
+    font-family: 'Didot', Georgia, serif;
+}
+
+/* INFO SECTION */
+
+.info-section {
+    background-color: #F1E3CC;
+    color: #553216;
+    padding: 16px;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section {
+    background-color: #3C533E;
+    padding: 16px;
+    color: #F1E3CC;
+}
+
+/* CALL-TO-ACTION SECTION */
+
+.cta-section {
+    background-color: #F1E3CC;
+    padding: 16px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #553216 ;
+    padding: 16px;
+    color: #F1E3CC;
+}
