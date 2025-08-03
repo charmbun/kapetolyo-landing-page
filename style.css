@@ -2,32 +2,90 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, p, a {
+    margin: 0;
+    font-weight: 300;
 }
 
 a {
     text-decoration: none;
     color: #F1E3CC;
+    padding: 0 16px;
 }
 
 a:hover {
     color: #B4B897;
 }
 
-h1, h2, p, a {
-    margin: 0;
-    font-weight: lighter;
-}
-
 /* HEADER & HERO SECTION */
 
-header, .hero-section {
+header {
     background-color: #553216 ;
     color: #F1E3CC;
-    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 48px 0px 48px;
 }
 
 .logo {
     font-family: 'Didot', Georgia, serif;
+    font-size: 32px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    background-color: #553216 ;
+    color: #F1E3CC;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 500px;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
+.hero-container img {
+    max-width: 75%;
+    border-radius: 20px;
+}
+
+.hero-container .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.hero-container p {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.hero-container button {
+    background-color: #3C533E;
+    color: #F1E3CC;
+    font-size: 16px;
+    padding: 8px 32px;
+    border-radius: 20px;
 }
 
 /* INFO SECTION */
@@ -35,14 +93,16 @@ header, .hero-section {
 .info-section {
     background-color: #F1E3CC;
     color: #553216;
-    padding: 16px;
+    padding: 32px;
+    padding-top: 128px;
+    text-align: center;
 }
 
 /* TESTIMONIAL SECTION */
 
 .testimonial-section {
     background-color: #3C533E;
-    padding: 16px;
+    padding: 32px;
     color: #F1E3CC;
 }
 
@@ -50,13 +110,13 @@ header, .hero-section {
 
 .cta-section {
     background-color: #F1E3CC;
-    padding: 16px;
+    padding: 32px;
 }
 
 /* FOOTER */
 
 footer {
     background-color: #553216 ;
-    padding: 16px;
+    padding: 32px;
     color: #F1E3CC;
 }
