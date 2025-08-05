@@ -4,6 +4,7 @@
   --primary-color: #473F34 ;
   --secondary-color: #8C9657;
   --text-color: #F0E5C7;
+  --accent-color: #BCC977;
 }
 
 header, footer, .hero-section {
@@ -12,17 +13,17 @@ header, footer, .hero-section {
 }
 
 .info-section, .cta-section {
-    background-color: var(--secondary-color);
+    background-color: var(--text-color);
     color: var(--primary-color);
 }
 
 .testimonial-section {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
 }
 
 .logo-color {
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 /***** GENERAL ******/
@@ -129,14 +130,61 @@ header {
 
 .info-section {
     padding: 32px;
-    padding-top: 200px;
     text-align: center;
+}
+
+.info-section h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 128px;
+    margin-bottom: 32px;
+}
+
+.featured-cafes {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.cafe {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cafe img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.cafe-name {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    font-family: 'Didot', Georgia, serif;
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 6px 4px;
+    margin-bottom: 16px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.cafe p {
+    width: 300px;   
 }
 
 /***** TESTIMONIAL SECTION ******/
 
 .testimonial-section {
-    padding: 32px;
+    padding: 64px 64px;
+    font-style: italic;
+}
+
+.testimonial-section p {
+    text-align: right;
+    font-size: 24px;
 }
 
 /***** CALL-TO-ACTION SECTION ******/
@@ -145,8 +193,40 @@ header {
     padding: 32px;
 }
 
+.cta {
+    display: flex;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 32px;
+    gap: 32px;
+    margin: 16px 32px;
+    border-radius: 10px;
+    justify-content:space-around;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cta-button:hover {
+    /* background-color:var(--accent-color); */
+    color: var(--accent-color);
+}
+
 /***** FOOTER SECTION ******/
 
 footer {
-    padding: 32px;
+    padding: 16px 32px;
+    text-align: center;
 }
