@@ -124,6 +124,14 @@ header {
     border-radius: 10px;
 }
 
+.hero-section .img-credit {
+    color: var(--primary-color);
+    font-size: smaller;
+    font-weight: 500;
+    margin-right: 80px;
+    text-align: right;
+}
+
 /***** INFO SECTION ******/
 
 .info-section {
