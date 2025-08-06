@@ -17,5 +17,5 @@ This is a static landing page project built with basic **HTML** and **CSS** as p
 
 ## License
 
-This project is for educational and demonstration purposes only.
-All referenced names, logos, and café identities are fictional or used with credit for non-commercial learning purposes.
+This project is for educational purposes only.
+All referenced names, logos, and café identities are used for non-commercial  purposes.
