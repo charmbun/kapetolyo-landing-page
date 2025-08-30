@@ -14,6 +14,9 @@ This is a static landing page project built with basic **HTML** and **CSS** as p
 ![Screenshot of Landing Page](./images/preview2.png)
 ![Screenshot of Landing Page](./images/preview3.png)
 
+## Live Demo
+
+View the landing page live [here](https://charmbun.github.io/rock-paper-scissors/).
 
 ## License
 
