@@ -16,7 +16,7 @@ This is a static landing page project built with basic **HTML** and **CSS** as p
 
 ## Live Demo
 
-View the landing page live [here](https://charmbun.github.io/rock-paper-scissors/).
+View the landing page live [here](https://charmbun.github.io/kapetolyo-landing-page/).
 
 ## License
 
